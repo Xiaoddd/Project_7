@@ -44,12 +44,12 @@ Time spent: **10** hours spent in total
   - [ ] Reference: http://seclists.org/oss-sec/2017/q1/563
   
   
-4. (Optional) Vulnerability Name or ID
+4. (Optional) Authenticated Cross-Site scripting (XSS) in update-core.php
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
+    - Vulnerability types: XSS
+    - Tested in version: 4.2 
     - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="update-core.php.gif">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
