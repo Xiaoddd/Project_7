@@ -11,7 +11,7 @@ Time spent: **10** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough:<img src="YouTube URL Embeds.gif">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
