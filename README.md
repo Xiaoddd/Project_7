@@ -32,15 +32,16 @@ Time spent: **10** hours spent in total
   - [ ] Reference: https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html
   
   
-3. (Required) Vulnerability Name or ID
+3. (Required) WordPress 3.3-4.7.4 - Large File Upload Error XSS
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types:XSS
+    - Tested in version: 4.2 
+    - Fixed in version: 4.2.15
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://github.com/WordPress/WordPress/commit/8c7ea71edbbffca5d9766b7bea7c7f3722ffafa6)
+  - [ ] Reference: https://hackerone.com/reports/203515
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
