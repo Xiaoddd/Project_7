@@ -44,15 +44,15 @@ Time spent: **10** hours spent in total
   - [ ] Reference: http://seclists.org/oss-sec/2017/q1/563
   
   
-4. (Optional) Authenticated Cross-Site scripting (XSS) in update-core.php
+4. (Optional) WordPress 2.9-4.7 - Authenticated Cross-Site scripting (XSS) in update-core.php
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2 
-    - Fixed in version: 
+    - Fixed in version:  4.2.11
   - [ ] GIF Walkthrough: <img src="XSSinupdate-core.gif">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://github.com/WordPress/WordPress/blob/c9ea1de1441bb3bda133bf72d513ca9de66566c2/wp-admin/update-core.php)
 5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
