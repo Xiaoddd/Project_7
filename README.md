@@ -32,17 +32,19 @@ Time spent: **10** hours spent in total
   - [ ] Reference: https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html
   
   
-3. (Required) WordPress 3.3-4.7.4 - Large File Upload Error XSS
+3. (Required) WordPress 3.6.0-4.7.2 - Authenticated Cross-Site Scripting (XSS) via Media File Metadata
   - [ ] Summary: 
     - Vulnerability types:XSS
     - Tested in version: 4.2 
-    - Fixed in version: 4.2.15
-  - [ ] GIF Walkthrough: 
+    - Fixed in version: 4.2.13
+  - [ ] GIF Walkthrough:  <img src="AuthenticatedCrossSiteScripti.gif">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://github.com/WordPress/WordPress/commit/8c7ea71edbbffca5d9766b7bea7c7f3722ffafa6)
-  - [ ] Reference: https://hackerone.com/reports/203515
-1. (Optional) Vulnerability Name or ID
+    - [Link 1](https://github.com/WordPress/WordPress/commit/28f838ca3ee205b6f39cd2bf23eb4e5f52796bd7)
+  - [ ] Reference: http://seclists.org/oss-sec/2017/q1/563
+  
+  
+4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -51,7 +53,7 @@ Time spent: **10** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
+5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
