@@ -21,7 +21,7 @@ Time spent: **10** hours spent in total
         
            3. Publish the post.
            
-  - [ ] Affected source code:https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8
+  - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
   - [ ] Reference: https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
   
